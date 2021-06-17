@@ -1,6 +1,6 @@
 #heading {
     color: cornflowerblue;
-    background-color: antiquewhite;
+    background-color: #606060;
     text-align: center;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -11,11 +11,11 @@
 }
 
 .head {
-    background-color: coral;
+    background-color: #505050;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #img {
@@ -27,4 +27,11 @@
 p {
     font-size: 17px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lawngreen;
+}
+
+body {
+    background-image: url("bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
