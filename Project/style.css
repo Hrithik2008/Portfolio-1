@@ -1,6 +1,6 @@
 #heading {
     color: cornflowerblue;
-    background-color: #606060;
+    background-color: #FFFFFF;
     text-align: center;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -8,14 +8,19 @@
     font-variant: small-caps;
     text-transform: capitalize;
     text-shadow: midnightblue;
+    padding-left: width;
+    padding-right: width;
+    padding-bottom: 0.95%;
+    border: solid;
 }
 
 .head {
-    background-color: #505050;
+    background-color: blanchedalmond;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+    padding-left: 1.5%;
 }
 
 #img {
@@ -24,14 +29,54 @@
     object-fit: cover;
 }
 
+a:link {
+    color: turquoise;
+}
+
+a:visited {
+    color: teal
+}
+
+a:active {
+    color: thistle
+}
+
 p {
     font-size: 17px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: lawngreen;
+    text-align: center;
+    color: mediumblue;
 }
 
 body {
-    background-image: url("bg.png");
+    background-image: url("bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#a {
+    text-align: right;
+}
+
+.game {
+    /*border: solid green;*/
+    display: flex;
+    margin: 2%;
+    padding: 2%;
+}
+
+.game p {
+    position: relative;
+    color: black;
+    top: 125px;
+    left: 225px;
+    opacity: 0;
+}
+
+.game:hover p {
+    opacity: 1;
+}
+
+.game:hover img {
+    opacity: 0.25;
 }
